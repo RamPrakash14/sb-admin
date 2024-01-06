@@ -16,7 +16,7 @@ function Card({cardData}) {
                             <div className="col">
                                 <div className="progress progress-sm mr-2">
                                     <div className={`progress-bar bg-${cardData.color}`} role="progressbar"
-                                        style={{width: `%`,ariaValueNow:`${cardData.value}`, ariaValueMin:"0",
+                                        style={{width: `${cardData.value}%`,ariaValueNow:`${cardData.value}`, ariaValueMin:"0",
                                         ariaValueMax:"100"}}></div>
                                 </div>
                             </div>
